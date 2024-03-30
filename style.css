@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family:Times New Roman,Cambria, Cochin;
+    background-color: rgb(255, 221, 203);
+    background-image: url(back\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+  }
+  
+
+  
+  .calendar-container {
+    background-color: rgb(252, 248, 248);
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(248, 77, 77, 0.3);
+    overflow: hidden;
+    background: line;
+
+  }
+  
+  .month-name {
+    margin: 0;
+    background-color: rgb(211, 134, 106);
+    color: white;
+    padding: 11px;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  
+  .day-name {
+    font-size: 28px;
+    color: rgb(20, 20, 20);
+    margin-top: auto;
+  }
+  
+  .day-number {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .year {
+    margin: 12px 12px;
+    font-size: 25px;
+    color: rgb(21, 20, 20);
+    font-weight: 505;
+  }
+  .calendar-photo {
+    margin-left: auto;
+     
+  }
+  
+  .calendar-photo img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 20px; 
+  
+    
+  }
+  .time-info {
+    margin-bottom: 0px;
+}
+
+.time {
+  
+    font-size: 23px;
+    background:linear-gradient(to right ,#080800,#2196f3,#f74d27);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+  @media screen and (max-width: 600px) {
+    .calendar-container {
+      width: 80%; 
+      height:72%;
+      align-items: center;
+      margin-bottom: 10%;
+      
+      
+    }
+    
+    .calendar-photo {
+      margin-left: auto;
+      
+       
+    }
+    
+    .calendar-photo img {
+      width: 170px; 
+      height: auto; 
+      border-radius: 20px; 
+    
+      
+    }
+    .time-info {
+      margin-bottom: 0px;
+  }
+  
+  }
